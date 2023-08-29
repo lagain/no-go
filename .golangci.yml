@@ -1,0 +1,8 @@
+linters:
+  enable:
+    - errcheck    # checks for unchecked errors in go programs
+    - importas    # enforces consistent import aliases
+    - ineffassign # detects when assignments to existing variables are not used
+    - unconvert   # removes unnecessary type conversions
+    - unparam     # removes unused function parameters
+  fast: true
